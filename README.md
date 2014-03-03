@@ -3,7 +3,7 @@ kentropy
 
 K-order entropy calculator
 
-Usage: kentropy [options] [file1] [file2]..
+```Usage: kentropy [options] [file1] [file2]..
 
 Options:
 --k NUM    Order of the entropy (default: 0)
@@ -17,7 +17,7 @@ Example 3: kentropy input1.txt input2.txt input3.txt
 
 Written by Andras Majdan
 License: GNU General Public License Version 3
-Report bugs to <majdan.andras@gmail.com>
+Report bugs to <majdan.andras@gmail.com>```
 
-WARNING:
-This program is not yet finished, contains bugs and produces invalid results.
+**WARNING:**
+**This program is not yet finished, contains bugs and produces invalid results.**
