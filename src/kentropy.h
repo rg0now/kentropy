@@ -9,19 +9,9 @@
 #define KENTROPY_H_
 
 #include <stdint.h>
-#include "cnht.h"
+#include <limits.h>
 
-typedef struct
-{
-	uint32_t num;
-	cnht *tbl;
-} store;
-
-typedef struct chll
-{
-	unsigned char c;
-	uint32_t num;
-	struct chll *next;
-} chll;
+typedef uint16_t symbol_t;
+#define KENTROPY_SYMBOL_TABLE_SIZE USHRT_MAX	//65535
 
 #endif /* KENTROPY_H_ */
