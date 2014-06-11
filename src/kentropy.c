@@ -49,9 +49,9 @@ double kentropy0(symbol_t *m, unsigned int len)
     while(i < len)
         num[(symbol_t)(ntohs(m[i++]))]++;
 
-    for(j=0; j<KENTROPY_SYMBOL_TABLE_SIZE; j++)
-        if(num[j] > 0)
-            printf("Symbol 0x%04x: %d\n", j, num[j]);
+    /* for(j=0; j<KENTROPY_SYMBOL_TABLE_SIZE; j++) */
+    /*     if(num[j] > 0) */
+    /*         printf("Symbol 0x%04x: %d\n", j, num[j]); */
 
     for(j=0; j<KENTROPY_SYMBOL_TABLE_SIZE; j++)
 	{
